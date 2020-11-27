@@ -1,1 +1,2 @@
 # huzzah-dotstar
+This is a my first attempt at using github.  The project is to use a dotstar 8x8 LED matrix connected to a ESP8266 Feather Huzzah to provide lighting to our family Manger. The initial implementation will turn on all LEDs to a static level of white at a specific time during the day and then turn them off at an ending time.  Everything will be hardcoded and resident on the Feather.  Code will be implemented using micropython.  At powerup, time will be sync'd using ntp and then enter a forever loop turning the LEDs on/off at the appropriate time.
